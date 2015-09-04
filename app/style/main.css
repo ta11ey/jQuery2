@@ -1,0 +1,22 @@
+.panel {
+	display: inline-block;
+	width: 33%;
+	background: lightgreen;
+	border-radius: 10px;
+	text-align: center;
+	}
+
+input{
+	border-radius: 10px;
+	background: lightgray;
+}
+#newListItem{
+	background: lightblue;
+	display: block;
+	padding:20px;
+}
+#newTaskForm{
+	background:lightblue;
+	padding:20px;
+}
+

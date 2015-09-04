@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Listo</title>
+	<title>To Do List</title>
 </head>
+<link rel="stylesheet" type="text/css" href="app/style/main.css">
+<link rel="stylesheet" type="text/css" href="app/style/normalize.css">
 <body>
 
+	<form id="newListItem">
+		<label>What's on the agenda for today?</label>
+		<input id="newItemInput" placeholder = "new task"></input>
+		<button id="saveNewItem">Save</button>
+		<button id="cancel">Cancel</button>
+		
+	</form>
+
+
+	<div id="newTaskForm"><!--changed from new-item-header-->
+		<button href = "#" class="pull-right pencil" style=""> add new </button> <!-- took id = "newListItem"-->
+	</div>
+
+	<div class="panel newList">
+		To Do
+	</div>
+
+	<div class="panel">
+		In Progress
+		<ul class="list-group" id="currentList"></ul>
+	</div>
+
+	<div class="panel">
+		Done
+		<ul class="list-group" id = "archivedList"></ul></div>
 
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src ="app/script/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
